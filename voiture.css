@@ -1,0 +1,252 @@
+@charset "utf-8";
+@charset "utf-8";
+/* CSS Document */
+body{}
+.bloc_haut{
+			width:1000px;
+			height:450px;
+			/*margin-left:auto;
+			margin-right:auto;
+			margin-top:20px;*/
+			border:5px solid black;
+			position:absolute;
+         }
+/*Pour la route1*/
+.blocAdeplacer{
+			  width:160px;
+			  height:115px;
+			  position:absolute;
+			  top:5px;
+			  left:5px;
+			 /* border:1px solid green;*/	  
+			 }
+.blocAdeplacer_1{
+			  width:160px;
+			  height:115px;
+			  position:absolute;
+			  top:5px;
+			  left:780px;
+			 /* border:1px solid green;*/
+			  display:none;	  
+			 }
+.image1{
+	  width:150px;
+	  height:105px;
+	  position:absolute;
+	  top:0px;
+	  left:0px;	   
+     }
+.lampeDev{
+		 position:absolute;
+		 width:13px;
+		 height:6px;
+		 border-radius:0px 12px 0px 12px;
+		 top:48px;
+		 left:130px;
+		 background-color:#FF0;
+		 display:none;
+		}
+.lampeArr{
+	    position:absolute;
+	    width:8px;
+	    height:5px;
+	    border-radius:0px 10px 0px 0px;
+	    top:40px;
+	    left:7px;
+	    background-color:#F00;
+	    display:none;
+       }
+.roue1{
+	   width:25px; 
+       height:25px; 
+       border-radius:12.5px;
+	   position:absolute;
+	   top:64px;
+	   left:8px;
+	   background-color:#CCCCCC;
+	   border:3px dotted #000000;
+      } 
+.roue2{
+      width:25px; 
+      height:25px; 
+      border-radius:12.5px;
+	  position:absolute;
+	  top:64px;
+	  left:110px;
+	  background-color:#CCCCCC;
+	  border:3px dotted #000000;
+     }  
+/*Pour la route 2*/
+.blocAdeplacer2{
+			  width:160px;
+			  height:115px;
+			  position:absolute;
+			  top:152px;
+			  left:742px;
+			 /* border:1px solid green;	*/
+			  display:none;	 
+			 }
+.blocAdeplacer2_1{
+			  width:160px;
+			  height:115px;
+			  position:absolute;
+			  top:152px;
+			  left:100px;
+			 /* border:1px solid green;	*/
+			  display:none;	
+			 }
+.image2{
+	  width:150px;
+	  height:105px;
+	  position:absolute;
+	  top:0px;
+	  left:0px;	   
+     }
+.lampeDev2{
+		 position:absolute;
+		 width:13px;
+		 height:6px;
+		 border-radius:10px 0px 10px 0px;
+		 top:48px;
+		 left:6px;
+		 background-color:#FF0;
+		 display:none;
+		}
+.lampeArr2{
+	    position:absolute;
+	    width:7px;
+	    height:5px;
+	    border-radius:0px 10px 0px 0px;
+	    top:40px;
+	    left:138px;
+	    background-color:#F00;
+	    display:none;
+       }
+.roue1_2{
+	   width:25px; 
+       height:25px; 
+       border-radius:12.5px;
+	   position:absolute;
+	   top:64px;
+	   left:8px;
+	   background-color:#CCCCCC;
+	   border:3px dotted #000000;
+      } 
+.roue2_2{
+      width:25px; 
+      height:25px; 
+      border-radius:12.5px;
+	  position:absolute;
+	  top:64px;
+	  left:110px;
+	  background-color:#CCCCCC;
+	  border:3px dotted #000000;
+     }  
+/*Pour route 3*/
+.blocAdeplacer3{
+			  width:160px;
+			  height:115px;
+			  position:absolute;
+			  top:313px;
+			  left:128px;
+			 /* border:1px solid green;	*/
+			  display:none;
+			 }
+#route1{
+	    width:870px;
+		position:absolute;
+	    top:102px;
+	    left:25px;
+		border:2px dashed #000;
+	    }
+#routeVertical1{
+				height:148px;
+				position:absolute;
+				top:102px;
+				left:895px;
+				border:2px dashed #000;
+				}
+#route2{
+	    width:766px;
+		position:absolute;
+	    top:250px;
+	    left:128px;
+		border:2px dashed #000;
+	    }
+#routeVertical2{
+				height:155px;
+				position:absolute;
+				top:250px;
+				left:128px;
+				border:2px dashed #000;
+				}
+#route3{
+	    width:600px;
+		position:absolute;
+	    top:410px;
+	    left:128px;
+		border:2px dashed #000;
+	    }
+
+#bloc_bas{
+	      width:310px;
+		  height:290px;
+		  position:absolute;
+		  top:480px;
+		  left:320px;
+		  border:5px solid black;
+	    }
+#paragraphe_bord{
+				 padding-right:20px;
+				 /*padding-bottom:0px;
+				 margin:1px;*/
+				 text-align: center;
+				 border:1px solid #000;
+	            }
+#afficheRange{
+			  float:right;
+		     }
+#avancer{
+	     position:absolute;
+	     top:50px;
+	     left:135px;
+	    }
+#lampeDerriere{
+		        position:absolute;
+		        top:125px;
+		        left:10px;
+	           }
+#tournerGauche{
+			 position:absolute;
+			 top:120px;
+			 left:60px;
+			}
+#demarrer{
+	      width: 80px;
+	      height: 80px;
+		  position:absolute;
+		  top:100px;
+		  left:110px;
+		  background-color: rgb(0,193,0);
+		  border-radius:40px;
+	     }
+#tournerDroite{
+			 position:absolute;
+			 top:120px;
+			 left:210px;
+		    }
+#lampeDevant{ 
+			 position:absolute;
+			 top:125px;
+			 left:260px;
+		   }
+#arriere{	   
+	   position:absolute;
+	   top:195px;
+	   left:135px;
+	  }
+h3{
+   position:absolute;
+   top:220px;
+   left:40px;
+  }

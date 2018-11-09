@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Conduire une voiture</title> 
+  <link rel="stylesheet" href="voiture.css">
+</head>
+
+<body>
+  <div class="grand_bloc">
+    <div class="bloc_haut">
+        <div class="blocAdeplacer">
+            <img class="image1" src="voiture.jpg">
+            <div class="lampeArr"></div>
+            <div class="lampeDev"></div>
+            <div class="roue1"></div>
+            <div class="roue2"></div>
+        </div>
+        <div class="blocAdeplacer_1">
+            <img class="image1" src="voiture.jpg">
+            <div class="lampeArr"></div>
+            <div class="lampeDev"></div>
+            <div class="roue1"></div>
+            <div class="roue2"></div>
+        </div>
+        <div class="blocAdeplacer2">
+            <img class="image2" src="voiture2.png">
+            <div class="lampeArr2"></div>
+            <div class="lampeDev2"></div>
+            <div class="roue1_2"></div>
+            <div class="roue2_2"></div>
+        </div>
+        <div class="blocAdeplacer2_1">
+            <img class="image2" src="voiture2.png">
+            <div class="lampeArr2"></div>
+            <div class="lampeDev2"></div>
+            <div class="roue1_2"></div>
+            <div class="roue2_2"></div>
+        </div>
+        <div class="blocAdeplacer3">
+            <img class="image1" src="voiture.jpg">
+            <div class="lampeArr"></div>
+            <div class="lampeDev"></div>
+            <div class="roue1"></div>
+            <div class="roue2"></div>
+        </div>
+        <div id="route1"></div>
+        <div id="routeVertical1"></div>
+        <div id="route2"></div>
+        <div id="routeVertical2"></div>
+        <div id="route3"></div>
+    </div>
+    <div id="bloc_bas">
+        <p id="paragraphe_bord" > <strong>Vitesse: 0 <input style="border:1px solid red;" type="range" id="accelerateur" min="0" max="100" value="0" oninput="document.getElementById('afficheRange').textContent=value" />100 <span id="afficheRange"> 0 </span></strong>
+        </p>
+        <div id="avancer"><img id="avancer1" src="avancer1.jpg" /></div>
+        <div id="lampeDerriere"><img id="lampeDerriere1" src="lampeDerriere1.jpg" /></div>
+        <div id="tournerGauche"><img id="tournerGauche1" src="tournerGauche1.jpg" /></div>
+        <button id="demarrer"><p id="dem"><strong>Demarrer<br>Arret</strong><p></button>>
+        <div id="tournerDroite"><img id="tournerDroite1" src="tournerDroite1.jpg" /></div>
+        <div id="lampeDevant"><img id="lampeDevant1" src="lampeDevant1.jpg" /></div>
+        <div id="arriere"><img id="arriere1" src="arriere1.jpg" /></div>
+        <h3>Tableau de bord de conduite</h3>
+    </div>
+ </div>
+ <script src="../../Fichiers_JQuery/jquery-2.1.3.min.js" ></script>
+ <script src="../../Fichiers_JQuery/jquery.keyframes.min.js" ></script>
+ <script src="voiture.js" ></script>
+</body>
+</html>
